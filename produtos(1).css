@@ -1,0 +1,26 @@
+header {
+    background-color: #8b4545;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 780px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+}
