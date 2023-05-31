@@ -1,16 +1,22 @@
 header {
-    background-color: #8b4545;
+    background: #cccccc;
+    padding: 20px 0;
 }
 nav a{
     text-transform: uppercase;
     color: black;
     font-weight: bold;
     text-decoration: none;
+    font-size: 22px;
+}
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
 }
 nav {
     position: absolute;
     top: 110px;
-    right: 780px;
+    right: 0px;
 }
 nav li{
     display: inline;
@@ -19,8 +25,75 @@ nav li{
 .produtos li{
     display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /*background-color: aquamarine;*/
+    margin: 0 0.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 19px;
+}
+.produtos li:hover{
+    border-color: blue;
+}
+.produtos li:hover h2{
+    font-size: 32px;
+}
+.produtos li:active{
+    background-color: chocolate;
 }
 .produtos{
     width: 940px;
     margin: 0 auto;
+    padding: 50px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+.produtos h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.produto_preço{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0 0;
+}
+.produto_descrisao{
+    font-size: 18px;
+}
+footer{
+    text-align: center;
+    background: url("./bg.jpg");
+    padding: 40px 0;
+}
+.Copyright {
+    color: #cccccc;
+    font-size:  13px;
+    font-style: italic;
+    text-decoration: underline;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px;
+}
+.form label, form p{
+    display: block;
+    font: 20px;
+    margin: 0 0 10px ;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px ;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
 }

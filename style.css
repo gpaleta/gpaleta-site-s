@@ -56,3 +56,27 @@ nav li{
     display: inline;
     margin: 0 0 0 15px;
 }
+header {
+    background: #cccccc;
+    padding: 20px 0;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
